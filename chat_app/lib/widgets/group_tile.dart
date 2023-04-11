@@ -6,7 +6,7 @@ class GroupTile extends StatefulWidget {
   final String userName;
   final String groupId;
   final String groupName;
-  GroupTile(
+  const GroupTile(
       {Key? key,
       required this.groupId,
       required this.groupName,

@@ -5,8 +5,6 @@ import 'package:chat_app/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'home_page.dart';
 
 class SearchPage extends StatefulWidget {
   const SearchPage({Key? key}) : super(key: key);
@@ -177,7 +175,7 @@ class _SearchPageState extends State<SearchPage> {
             setState(() {
               isJoined = !isJoined;
             });
-            showSnackBar(context, Colors.green, "Successfully joined he group");
+            showSnackBar(context, Colors.green, "Successfully joined the group");
             Future.delayed(const Duration(seconds: 2), () {
               nextScreen(
                   context,
