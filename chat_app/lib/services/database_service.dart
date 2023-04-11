@@ -33,10 +33,36 @@ class DatabaseService {
     return userCollection.doc(uid).snapshots();
   }
 
-  // creating a group
+  // // creating a group
+  // Future createGroup(String userName, String id, String groupName) async {
+  //   DocumentReference groupDocumentReference = await groupCollection.add({
+  //     "groupName": groupName.trim(),
+  //     "groupIcon": "",
+  //     "admin": "${id}_$userName",
+  //     "members": [],
+  //     "groupId": "",
+  //     "recentMessage": "",
+  //     "recentMessageSender": "",
+  //   });
+  //   // update the members
+  //   await groupDocumentReference.update({
+  //     "members": FieldValue.arrayUnion(["${uid}_$userName"]),
+  //     "groupId": groupDocumentReference.id,
+  //   });
+
+  //   DocumentReference userDocumentReference = userCollection.doc(uid);
+  //   return await userDocumentReference.update({
+  //     "groups":
+  //         FieldValue.arrayUnion(["${groupDocumentReference.id}_$groupName"])
+  //   });
+  // }
+
   Future createGroup(String userName, String id, String groupName) async {
     DocumentReference groupDocumentReference = await groupCollection.add({
-      "groupName": groupName,
+      "groupName": groupName.trim(),
+      "groupNameLowerCase": groupName
+          .trim()
+          .toLowerCase(), // add lowercase version of the group name
       "groupIcon": "",
       "admin": "${id}_$userName",
       "members": [],
@@ -77,10 +103,49 @@ class DatabaseService {
     return groupCollection.doc(groupId).snapshots();
   }
 
-  // search
+  // searchByName(String groupName) {
+  //   // Convert the search input to lowercase
+  //   String searchKey = groupName.toLowerCase();
+
+  //   // Construct a query that filters documents where the "groupName" field starts with the search input
+  //   return groupCollection
+  //       .where("groupName", isGreaterThanOrEqualTo: searchKey)
+  //       .where("groupName", isLessThan: searchKey + 'z')
+  //       .get();
+  // }
+
   searchByName(String groupName) {
-    return groupCollection.where("groupName", isEqualTo: groupName).get();
+    // Convert the search input to lowercase
+    String searchInput = groupName.toLowerCase();
+    // Construct a query that filters documents where the "groupName" field starts with the search input
+    return groupCollection
+        .where("groupNameLowerCase", isGreaterThanOrEqualTo: searchInput)
+        .where("groupNameLowerCase", isLessThan: searchInput + 'z')
+        .get();
   }
+
+  // searchByName(String groupName) {
+  //   List<String> searchStrings = [];
+  //   for (int i = 0; i < groupName.length; i++) {
+  //     searchStrings.add(groupName.substring(0, i + 1));
+  //   }
+  //   return groupCollection.where("groupName", whereIn: searchStrings).get();
+  // }
+  // searchByName(List<String> searchStrings) {
+  //   return groupCollection.where("groupName", whereIn: searchStrings).get();
+  // }
+
+  // searchByName(String searchString) {
+  //   List<String> searchList = [];
+  //   String temp = "";
+  //   for (int i = 0; i < searchString.length; i++) {
+  //     temp = temp + searchString[i];
+  //     searchList.add(temp);
+  //   }
+  //   return groupCollection
+  //       .where('groupName', arrayContainsAny: searchList)
+  //       .get();
+  // }
 
   // function -> bool
   Future<bool> isUserJoined(
