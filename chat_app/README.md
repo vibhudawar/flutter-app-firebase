@@ -23,11 +23,15 @@ Groupie is the perfect chat app for anyone who wants to connect with people who 
 
 ## Screenshots
 
-<img src="gitImages/Portrait_banner_groupie.png" alt="Groupie" width="250">
-<img src="gitImages/screenshot1.png" alt="SS1" width="250">
-<img src="gitImages/screenshot2.png" alt="SS2" width="250">
-<img src="gitImages/screenshot3.png" alt="SS3" width="250">
-<!-- <img src="gitImages/screenshot4.png" alt="SS4" width="250"> -->
+<table>
+  <tr>
+    <td><img src="gitImages/Portrait_banner_groupie.png" alt="Groupie" width="250"></td>
+    <td><img src="gitImages/screenshot1.png" alt="SS1" width="250"></td>
+    <td><img src="gitImages/screenshot2.png" alt="SS2" width="250"></td>
+    <td><img src="gitImages/screenshot3.png" alt="SS3" width="250"></td>
+  </tr>
+</table>
+
 
 
 
