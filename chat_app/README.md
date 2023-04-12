@@ -1,5 +1,6 @@
-
-![Logo](gitImages/Groupie_logo.png)
+<p align="center">
+  <img src="gitImages/Groupie_logo.png" width="250">
+</p>
 
 
 # Groupie: Chat app with Firebase
@@ -22,11 +23,12 @@ Groupie is the perfect chat app for anyone who wants to connect with people who 
 
 ## Screenshots
 
-![Alt text](gitImages/Portrait_banner_groupie.png "Groupie")
-![Alt text](gitImages/screenshot1.png "SS1")
-![Alt text](gitImages/screenshot2.png "SS2")
-![Alt text](gitImages/screenshot3.png "SS3")
-![Alt text](gitImages/screenshot4.png "SS4")
+<img src="gitImages/Portrait_banner_groupie.png" alt="Groupie" width="250">
+<img src="gitImages/screenshot1.png" alt="SS1" width="250">
+<img src="gitImages/screenshot2.png" alt="SS2" width="250">
+<img src="gitImages/screenshot3.png" alt="SS3" width="250">
+<!-- <img src="gitImages/screenshot4.png" alt="SS4" width="250"> -->
+
 
 
 
