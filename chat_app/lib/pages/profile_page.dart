@@ -1,4 +1,4 @@
-import 'package:chat_app/services/auth_service.dart';
+import 'package:Groupie/services/auth_service.dart';
 import 'package:flutter/material.dart';
 import '../widgets/widgets.dart';
 import 'auth/login_page.dart';

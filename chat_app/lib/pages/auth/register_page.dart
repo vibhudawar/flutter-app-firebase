@@ -1,7 +1,7 @@
-import 'package:chat_app/helper/helper_function.dart';
-import 'package:chat_app/pages/auth/login_page.dart';
-import 'package:chat_app/pages/home_page.dart';
-import 'package:chat_app/widgets/widgets.dart';
+import 'package:Groupie/helper/helper_function.dart';
+import 'package:Groupie/pages/auth/login_page.dart';
+import 'package:Groupie/pages/home_page.dart';
+import 'package:Groupie/widgets/widgets.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import '../../services/auth_service.dart';

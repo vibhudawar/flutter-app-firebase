@@ -1,5 +1,5 @@
-import 'package:chat_app/pages/home_page.dart';
-import 'package:chat_app/services/database_service.dart';
+import 'package:Groupie/pages/home_page.dart';
+import 'package:Groupie/services/database_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import '../widgets/widgets.dart';

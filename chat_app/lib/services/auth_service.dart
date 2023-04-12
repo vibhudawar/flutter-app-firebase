@@ -1,5 +1,5 @@
-import 'package:chat_app/helper/helper_function.dart';
-import 'package:chat_app/services/database_service.dart';
+import 'package:Groupie/helper/helper_function.dart';
+import 'package:Groupie/services/database_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthService {

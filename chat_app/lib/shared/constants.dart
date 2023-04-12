@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
 class Constants {
-  static String appId = "1:590427816532:web:1322f4557b45edf354e3c1";
-  static String apiKey = "AIzaSyAkfKCvKb1HagiPSBITP78bhwLJDUHX0Ik";
-  static String messagingSenderId = "590427816532";
-  static String projectId = "chatflutter-468a7";
+  // dotenv.env['APP_ID'] ?? ''
+  static String appId = "1:69065112850:web:6d722db1504e30feefc7cb";
+  static String apiKey = "AIzaSyAz8jDq3537F-1Hm2SyYk3IscC2Falk1Qo";
+  static String messagingSenderId = "69065112850";
+  static String projectId = "groupieflutter-d67ba";
   final primaryColor = const Color(0xffee7b64);
 }

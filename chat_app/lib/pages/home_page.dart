@@ -1,11 +1,11 @@
-import 'package:chat_app/helper/helper_function.dart';
-import 'package:chat_app/pages/auth/login_page.dart';
-import 'package:chat_app/pages/profile_page.dart';
-import 'package:chat_app/pages/search_page.dart';
-import 'package:chat_app/services/auth_service.dart';
-import 'package:chat_app/services/database_service.dart';
-import 'package:chat_app/widgets/group_tile.dart';
-import 'package:chat_app/widgets/widgets.dart';
+import 'package:Groupie/helper/helper_function.dart';
+import 'package:Groupie/pages/auth/login_page.dart';
+import 'package:Groupie/pages/profile_page.dart';
+import 'package:Groupie/pages/search_page.dart';
+import 'package:Groupie/services/auth_service.dart';
+import 'package:Groupie/services/database_service.dart';
+import 'package:Groupie/widgets/group_tile.dart';
+import 'package:Groupie/widgets/widgets.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 

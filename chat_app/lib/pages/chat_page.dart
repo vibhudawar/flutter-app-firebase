@@ -1,7 +1,7 @@
-import 'package:chat_app/pages/group_info.dart';
-import 'package:chat_app/services/database_service.dart';
-import 'package:chat_app/widgets/message_tile.dart';
-import 'package:chat_app/widgets/widgets.dart';
+import 'package:Groupie/pages/group_info.dart';
+import 'package:Groupie/services/database_service.dart';
+import 'package:Groupie/widgets/message_tile.dart';
+import 'package:Groupie/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 

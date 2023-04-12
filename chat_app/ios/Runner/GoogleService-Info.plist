@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>590427816532-n968uousjfqqlukkcj5cfkccn4pbsup9.apps.googleusercontent.com</string>
+	<string>69065112850-k13svufoqpfjpd7hv0797g3b1sk1i4kd.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.590427816532-n968uousjfqqlukkcj5cfkccn4pbsup9</string>
+	<string>com.googleusercontent.apps.69065112850-k13svufoqpfjpd7hv0797g3b1sk1i4kd</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>590427816532-uvsj1gtg8n6naod7rtnmslape9l20l3h.apps.googleusercontent.com</string>
+	<string>69065112850-l9nodfcj06u5c1utuhno5fb660d8l95v.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDKJPRsKbwRMhEpRDhmWCziT-K44yOnUsg</string>
+	<string>AIzaSyCDkioGaXOegctQqbl9Q0qacTe5XQUiIGQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>590427816532</string>
+	<string>69065112850</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.chatApp</string>
+	<string>com.phoenix.groupie</string>
 	<key>PROJECT_ID</key>
-	<string>chatflutter-468a7</string>
+	<string>groupieflutter-d67ba</string>
 	<key>STORAGE_BUCKET</key>
-	<string>chatflutter-468a7.appspot.com</string>
+	<string>groupieflutter-d67ba.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:590427816532:ios:b75bec03dfeb2b5f54e3c1</string>
+	<string>1:69065112850:ios:147a8077f6150b9cefc7cb</string>
 </dict>
 </plist>

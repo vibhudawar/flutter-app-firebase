@@ -1,17 +1,17 @@
-import 'package:chat_app/helper/helper_function.dart';
-import 'package:chat_app/pages/home_page.dart';
-import 'package:chat_app/shared/constants.dart';
+import 'package:Groupie/helper/helper_function.dart';
+import 'package:Groupie/pages/home_page.dart';
+import 'package:Groupie/shared/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
-import 'package:chat_app/pages/auth/login_page.dart';
+import 'package:Groupie/pages/auth/login_page.dart';
 
 void main() async {
   // this will let all the widgets to initialize
   WidgetsFlutterBinding.ensureInitialized();
 
   if (kIsWeb) {
-    // run the intialization for the web
+    // run the initialization for the web
     await Firebase.initializeApp(
         options: FirebaseOptions(
             apiKey: Constants.apiKey,
@@ -19,10 +19,9 @@ void main() async {
             messagingSenderId: Constants.messagingSenderId,
             projectId: Constants.projectId));
   } else {
-    // run the intialization for the android and ios
+    // run the initialization for the android and ios
     await Firebase.initializeApp();
   }
-
   runApp(const MyApp());
 }
 
