@@ -5,11 +5,11 @@
 
 # Groupie: Chat app with Firebase
 
-Welcome to Groupie, the chat app that revolutionises the way you connect with people. With Groupie, you can create or join communities of like-minded individuals from all over the world, and chat with your friends and family without any boundaries.
+Welcome to Groupie, the chat app that revolutionize the way you connect with people. With Groupie, you can create or join communities of like-minded individuals from all over the world, and chat with your friends and family without any boundaries.
 
 Groupie allows you to make as many communities as you want and search for other communities to join. Whether you are passionate about cooking, photography, or travel, you can find the perfect community for you. You can also invite your friends and family to join your community, and share your interests with them.
 
-Groupie is a simple, yet powerful app that provides a smooth and user-friendly experience. With our app, you can easily send messages and stay connected with your loved ones. We offer a wide range of features that allow you to customise your profile, manage your communities, and much more.
+Groupie is a simple, yet powerful app that provides a smooth and user-friendly experience. With our app, you can easily send messages and stay connected with your loved ones. We offer a wide range of features that allow you to customize your profile, manage your communities, and much more.
 
 How does it work?
 - Register/Login the app using your email, and password.
@@ -34,6 +34,10 @@ Groupie is the perfect chat app for anyone who wants to connect with people who 
 
 
 
+## Database Structure
+<p align="center">
+  <img src="gitImages/db_structure.png" width="1000">
+</p>
 
 
 
