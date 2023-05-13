@@ -33,7 +33,6 @@ Groupie is the perfect chat app for anyone who wants to connect with people who 
 </table>
 
 
-
 ## Database Structure
 <p align="center">
   <img src="gitImages/db_structure.png" width="1000">
