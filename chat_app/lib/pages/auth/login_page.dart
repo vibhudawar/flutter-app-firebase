@@ -17,6 +17,7 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  // form key to control the state of the form
   final formKey = GlobalKey<FormState>();
   String email = "";
   String password = "";
